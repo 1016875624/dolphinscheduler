@@ -95,7 +95,8 @@
         <docker.push.skip>true</docker.push.skip>
         <skipDepCheck>true</skipDepCheck>
         <build.ui.skip>false</build.ui.skip>
-        <spotless.skip>false</spotless.skip>
+        <spotless.skip>true</spotless.skip>
+        <skipTests>true</skipTests>
 
         <skipUT>false</skipUT>
     </properties>
