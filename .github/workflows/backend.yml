@@ -14,7 +14,10 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-
+permissions:
+  contents: write  # 允许上传 artifacts
+  actions: write   # 允许跨 job 共享 artifacts
+  packages: write  # 如需发布到 GitHub Packages
 name: Backend
 
 on:
