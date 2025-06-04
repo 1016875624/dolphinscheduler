@@ -21,6 +21,7 @@ on:
   push:
     branches:
       - dev
+      - 3.2.2-release
     paths:
       - '.github/workflows/backend.yml'
       - 'package.xml'
